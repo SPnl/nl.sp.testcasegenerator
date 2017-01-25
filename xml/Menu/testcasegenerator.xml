@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<menu>
+  <item>
+    <path>civicrm/testcasegenerator/runner</path>
+    <page_callback>CRM_Testcasegenerator_Page_Runner</page_callback>
+    <title>Runner</title>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
+  <item>
+    <path>civicrm/testcasegenerator/tasks</path>
+    <page_callback>CRM_Testcasegenerator_Page_Tasks</page_callback>
+    <title>Tasks</title>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
+  <item>
+    <path>civicrm/testcasegenerator/create</path>
+    <page_callback>CRM_Testcasegenerator_Form_Create</page_callback>
+    <title>Create</title>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
+</menu>
